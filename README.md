@@ -1,12 +1,11 @@
-# Nerf_RVP Mod for Project Zomboid
+# Amplified Vehicle Damage Mod for Project Zomboid
 
 このMODは『Project Zomboid』の車両パーツの耐久性をナーフし、ゲームをよりチャレンジングにします。
-元々は後部車両パーツのみをナーフする予定でしたが、現在はすべての車両パーツの耐久性を減少させる仕様に変更されています。
-MODの名前も『Nerf_Vehicle_Parts』に変更予定です。
+車両パーツの耐久性を減少させる仕様。
 
 ## 特徴
 
-- **全車両耐久性のナーフ**: 後部パーツのみでなく、すべての車両パーツの耐久性を減少させます。これにより、車両はより簡単に故障します。
+- **全車両耐久性のナーフ**: すべての車両パーツの耐久性を減少させます。これにより、車両はより簡単に故障します。
 - **カスタマイズ**: プレイヤーが好みに合わせて車両耐久性を調整できるよう、スキルレベルに応じたダメージ倍率を設定できます。※予定
 
 ## インストール方法
@@ -15,10 +14,10 @@ MODの名前も『Nerf_Vehicle_Parts』に変更予定です。
 
 ## 設定
 
-MODには、プレイヤーの「車両耐久性」スキルに基づいた影響を調整するオプションがあります：
+MODには、プレイヤーの「車両整備」スキルに基づいた影響を調整するオプションがあります：
 
-- `Sandbox_Nerf_RVP_FactorAtSkill0`: スキルレベル0での追加ダメージ倍率を調整します（デフォルト: 1.2）。
-- `Sandbox_Nerf_RVP_FactorAtSkill10`: スキルレベル10での追加ダメージ倍率を調整します（デフォルト: 1.1）。
+- スキルレベル0での追加ダメージ倍率を調整します（デフォルト: 1.2）。
+- スキルレベル10での追加ダメージ倍率を調整します（デフォルト: 1.1）。
 
 これらのオプションは現在は `sandbox-options.txt` ファイルで変更できます。
 将来的にはサンドボックスオプションから変更可能にします。
@@ -36,38 +35,37 @@ MODには、プレイヤーの「車両耐久性」スキルに基づいた影�
 
 ---
 
-# Nerf_RVP Mod for Project Zomboid
+# Amplified Vehicle Damage Mod for Project Zomboid
 
-This mod nerfs the durability of vehicle parts in *Project Zomboid*, making the game more challenging. Originally, the plan was to nerf only the rear vehicle parts, but now it has been changed to reduce the durability of all vehicle parts. The mod name will also be changed to *Nerf_Vehicle_Parts*.
+This mod nerfs the durability of vehicle parts in *Project Zomboid*, making the game more challenging.  
+It reduces the durability of vehicle parts as a core mechanic.  
 
-## Features
+## Features  
 
-- **Overall Vehicle Durability Nerf**: Not only the rear parts but all vehicle parts have reduced durability, making vehicles break down more easily.
-- **Customization**: Allows players to adjust vehicle durability based on their preferences, with damage multipliers adjusted according to skill levels. (*Planned feature*)
+- **Global Vehicle Durability Nerf**: Lowers the durability of all vehicle parts, making them more prone to breaking.  
+- **Customization**: Planned feature allowing players to adjust vehicle durability based on skill level.  
 
-## Installation
+## Installation  
 
-1. The mod will be uploaded to Steam Workshop for easy installation in the future.
+1. The mod will be available on Steam Workshop at a later date.  
 
-## Configuration
+## Settings  
 
-This mod includes options that adjust the impact of the player’s "vehicle durability" skill:
+The mod includes options to adjust the impact based on the player's "Mechanics" skill:  
 
-- `Sandbox_Nerf_RVP_FactorAtSkill0`: Adjusts the extra damage multiplier at skill level 0 (default: 1.2).
-- `Sandbox_Nerf_RVP_FactorAtSkill10`: Adjusts the extra damage multiplier at skill level 10 (default: 1.1).
+- Adjusts additional damage multiplier at **skill level 0** *(Default: 1.2)*.  
+- Adjusts additional damage multiplier at **skill level 10** *(Default: 1.1)*.  
 
-These options can currently be changed in the `sandbox-options.txt` file. In the future, they will be made available to modify through sandbox options.
+Currently, these options can be modified in the `sandbox-options.txt` file.  
+In the future, they will be configurable through the in-game Sandbox Options.  
 
-## License
+## License  
 
-This mod is licensed under the [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/). You are free to use, share, and distribute the mod, but **you may not modify or create derivative works based on it**.
+This mod is licensed under the [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/).  
+You are free to use, share, and distribute the mod, but **modifications and derivative works are not allowed**.  
 
-## Changelog
+## Changelog  
 
-### v0.0.2
-- Nerfed overall vehicle durability.
-- Adjusted damage multipliers based on vehicle durability skill.
-
----
-
-Feel free to fork the project or submit issues if you encounter any bugs. Let's make Project Zomboid even more challenging with Nerf_RVP!
+### v0.0.2  
+- Overall nerf to vehicle durability.  
+- Adjusted damage multipliers based on the Mechanics skill.  
