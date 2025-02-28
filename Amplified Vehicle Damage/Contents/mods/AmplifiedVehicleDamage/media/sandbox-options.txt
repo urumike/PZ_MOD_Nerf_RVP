@@ -1,0 +1,21 @@
+VERSION = 1
+
+option MKAVD.DamageMultiplierAtSkill0
+{
+    type = float,
+    default = 3.0,
+    min = 0.5,
+    max = 5.0,
+    page = MKAVD,
+    translation = MKAVD_DamageMultiplierAtSkill0
+}
+
+option MKAVD.DamageMultiplierAtSkill10
+{
+    type = float,
+    default = 1.0,
+    min = 0.5,
+    max = 5.0,
+    page = MKAVD,
+    translation = MKAVD_DamageMultiplierAtSkill10
+}

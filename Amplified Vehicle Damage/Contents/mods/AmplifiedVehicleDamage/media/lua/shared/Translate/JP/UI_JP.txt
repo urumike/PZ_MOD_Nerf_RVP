@@ -1,0 +1,11 @@
+UI_JP = {
+    Sandbox = Sandbox or {},
+
+    Sandbox.AmplifiedVehicleDamage = "車両ダメージ増幅オプション",
+
+    Sandbox.AmplifiedVehicleDamage_DamageMultiplierAtSkill0 = "スキルレベル0時の車両ダメージ倍率",
+    Sandbox.AmplifiedVehicleDamage_DamageMultiplierAtSkill0_tooltip = "車両運転スキルレベル0時の車両ダメージ倍率を設定します（デフォルト：3.0）",
+
+    Sandbox.AmplifiedVehicleDamage_DamageMultiplierAtSkill10 = "スキルレベル10時の車両ダメージ倍率",
+    Sandbox.AmplifiedVehicleDamage_DamageMultiplierAtSkill10_tooltip = "車両運転スキルレベル10時の車両ダメージ倍率を設定します（デフォルト：1.0）",
+}
