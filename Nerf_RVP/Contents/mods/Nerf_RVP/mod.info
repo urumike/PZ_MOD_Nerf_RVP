@@ -1,5 +1,0 @@
-name=Nerf Rear Vehicle Parts
-id=Nerf_RVP
-poster=poster.png
-description=Reduces rear part durability to 1/5 of default.
-sandbox=SandboxVars.lua

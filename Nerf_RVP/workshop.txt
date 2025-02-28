@@ -1,8 +1,0 @@
-version=1
-id=3435111089
-title=Nerf Rear Vehicle Parts
-description=Reduces rear part durability to 1/5 of default.
-description=
-description=Ver 0.01
-tags=Build 41
-visibility=unlisted

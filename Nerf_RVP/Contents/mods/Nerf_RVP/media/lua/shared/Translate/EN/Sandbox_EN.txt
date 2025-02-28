@@ -1,9 +1,0 @@
-Sandbox = Sandbox or {}
-
-Sandbox.Nerf_RVP = "Nerf Rear Vehicle Parts Options"
-
-Sandbox.Sandbox_Nerf_RVP_FactorAtSkill0 = "Extra Damage Multiplier at Skill Level 0"
-Sandbox.Sandbox_Nerf_RVP_FactorAtSkill0_tooltip = "Sets the extra damage multiplier for VehicleDurability skill level 0 (default: 1.2)"
-
-Sandbox.Sandbox_Nerf_RVP_FactorAtSkill10 = "Extra Damage Multiplier at Skill Level 10"
-Sandbox.Sandbox_Nerf_RVP_FactorAtSkill10_tooltip = "Sets the extra damage multiplier for VehicleDurability skill level 10 (default: 1.1)"
