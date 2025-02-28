@@ -1,0 +1,19 @@
+VERSION = 1
+
+option Nerf_RVP.FactorAtSkill0 = {
+    type = float,
+    default = 1.2,
+    min = 1.0,
+    max = 5.0,
+    page = Nerf_RVP,
+    translation = Nerf_RVP_FactorAtSkill0
+}
+
+option Nerf_RVP.FactorAtSkill10 = {
+    type = float,
+    default = 1.1,
+    min = 1.0,
+    max = 5.0,
+    page = Nerf_RVP,
+    translation = Nerf_RVP_FactorAtSkill10
+}
